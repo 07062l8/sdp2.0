@@ -1,3 +1,4 @@
+// Japanese factory: Matcha + Mochi
 public class JapaneseCuisine implements CoffeeDessertFactory {
     @Override
     public Coffee makeCoffee() {

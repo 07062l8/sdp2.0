@@ -1,3 +1,4 @@
+// Concrete coffee product: Espresso
 public class Espresso  implements Coffee {
     @Override
     public void prepare() {

@@ -1,4 +1,4 @@
-public interface CoffeeShop {
+public interface CoffeeDessertFactory {
     Coffee makeCoffee();
     Dessert makeDessert();
 }

@@ -2,7 +2,8 @@
 public class LunaCoffeeShop {
     public static void main(String[] args) {
         System.out.println("⭐First combo:");
-        CoffeeDessertFactory itfactory = new ItalianCuisine(); // Italian cuisine factory
+        // Create Italian coffee and dessert using Italian cuisine Factory
+        CoffeeDessertFactory itfactory = new ItalianCuisine();
         Coffee itcoffee = itfactory.makeCoffee();
         Dessert itdessert = itfactory.makeDessert();
 
@@ -10,6 +11,7 @@ public class LunaCoffeeShop {
         itdessert.serve();
 
         System.out.println("⭐Second combo:");
+        // Create Japanese coffee and dessert using Japanese cuisine factory
         CoffeeDessertFactory jpfactory = new JapaneseCuisine(); // Japanese cuisine factory
         Coffee jpcoffee = jpfactory.makeCoffee();
         Dessert jpdessert = jpfactory.makeDessert();
